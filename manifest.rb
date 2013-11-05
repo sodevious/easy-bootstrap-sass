@@ -1,10 +1,10 @@
 description 'Bootstrap for Sass'
 
 # Stylesheet importing bootstrap
-stylesheet 'assets/stylesheets/styles.scss'
+stylesheet 'assets/sass/styles.scss'
 
 # SCSS:
-bs_stylesheets = "assets/stylesheets/bootstrap"
+bs_stylesheets = "assets/sass/bootstrap"
 stylesheet '_variables.scss.erb', to: '_variables.scss', erb: true,
            bs_variables_path: File.expand_path("#{bs_stylesheets}/_variables.scss", File.dirname(__FILE__))
 

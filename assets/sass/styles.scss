@@ -1,0 +1,11 @@
+// customize bootstrap variables here:
+@import "compass";
+@import "bootstrap";
+
+p {
+	color: red;
+	padding: 20px;
+	display: block;
+	background: yellow;
+	@include border-radius(20px);
+}

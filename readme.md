@@ -1,4 +1,4 @@
-so from this repo: https://github.com/thomas-mcdonald/bootstrap-sass
+## bootstrap-sassso from this repo: https://github.com/thomas-mcdonald/bootstrap-sass
 
 - I took the templates/project files
 - I took the vendor/assets files
@@ -10,3 +10,9 @@ I also changed the import file to remove the _variables.scss.erb file. It was ca
 I also had to go into bootstrap/bootstrap.scss to fix the paths as well.
 
 Make sure in your complier, that everything compiles to the right path.
+
+
+## Compass
+
+`$ gem update --system`
+`$ gem install compass`
